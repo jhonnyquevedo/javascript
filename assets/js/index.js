@@ -14,4 +14,14 @@ function resta(){
     if(numberFormated > 0){
     number.innerText = numberFormated - 1
     }
-} 
+}
+
+var number1 = document.querySelector(".precio-inicial")
+var number2 = document.querySelector(".cantidad")
+var result = document.querySelector(".valor-total")
+
+function multiplicacion(){
+    var numberOneFormated = parseInt (number1.innerText)
+    var numberTwoFormated = parseInt (number2.innerText)
+    result.innerText = numberOneFormated * numberTwoFormated
+}    
